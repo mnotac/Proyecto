@@ -24,5 +24,6 @@ this.dimensionRespaldo = dimensionRespaldo;
 }
 
 public void Imprimir() {
-
+    System.out.println();
+}
 }
