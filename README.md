@@ -29,9 +29,13 @@
  
  ## Reparto de las tareas
  -Antonio: se encargará del main y de pedir al usuario las dimensiones de la tabla con un Sccaner y un bucle para que se cree la tabla.
+ 
  -Xon método para rellenar la matriz con valores aleatorios y el menu principal
+ 
  -Manu: Un método que reciba las coordenadas introducidas por el usuario e invierta las posiciones de la matriz adecuadas.
+ 
  -Brais :Un método que compruebe si toda la matriz está a False (en cuyo caso debe devolver True) o no (en cuyo caso debe devolver False).
+ 
  
  (En los procesos de Manu y Brais serán suporteados por el equipo para compensar el 
  trabajo ya que estas dos partes son las más compleja a la hora de crear este juego.)
