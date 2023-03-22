@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class LucesFora {
@@ -23,7 +24,27 @@ public void setDimensionRespaldo(int dimensionRespaldo) {
 this.dimensionRespaldo = dimensionRespaldo;
 }
 
-public void Imprimir() {
-    System.out.println();
+
+public static void main(String[] args) {
+
+Scanner entrada = new Scanner(System.in);
+
+LucesFora luz = new LucesFora();
+
+System.out.print("Introduca las dimensiones del tablero: ");
+
+luz.dimension = entrada.nextInt();
+
+while (luz.dimension <= 3) {
+
+System.out.print("Dimensiones muy reducidas, vuelva a introducir otras dimesiones: ");
+
+luz.dimensionRespaldo = entrada.nextInt();
+
+luz.dimension = luz.dimensionRespaldo;
+}
+
+entrada.close();
+
 }
 }
