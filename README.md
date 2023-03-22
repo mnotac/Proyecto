@@ -11,8 +11,11 @@
 
 ## Miembros del equipo:
 -Antonio Jurado
+
 -Manuel Fernadez
+
 -Brais
+
 -Xon Suárez
 
 
